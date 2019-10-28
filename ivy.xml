@@ -1,0 +1,15 @@
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+  <info organisation="abb" module="JasperHTMLGridExporter" />
+  <configurations>
+    <conf name="default" />
+  </configurations>
+  <publications>
+    <artifact />
+  </publications>
+  <dependencies>
+    <dependency org="mincom.external" name="jasperreports" rev="${infrastructure.version}" conf="default" />
+    <dependency org="org.w3c.jigsaw" name="jigsaw" rev="2.2.6" conf="default"/>
+    <dependency org="mincom.external" name="slf4j" rev="${infrastructure.version}" conf="default" />
+  </dependencies>
+</ivy-module>
+
